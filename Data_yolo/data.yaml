@@ -1,0 +1,17 @@
+# YOLO dataset configuration file for Garbage Segregation
+
+# Paths to training and validation image directories
+train: data_yolo/images/train
+val: data_yolo/images/val
+
+# Number of classes
+nc: 6
+
+# Class names (must match your label IDs)
+names:
+  0: cardboard
+  1: glass
+  2: metal
+  3: paper
+  4: plastic
+  5: trash
